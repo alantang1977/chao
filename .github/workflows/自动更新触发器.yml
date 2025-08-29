@@ -2,7 +2,7 @@ name: Auto Sync Fork
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 00:00 UTC 自动运行
+    - cron: '08 05 * * *'  # 每天 00:00 UTC 自动运行
   workflow_dispatch:     # 支持手动触发
 
 jobs:
